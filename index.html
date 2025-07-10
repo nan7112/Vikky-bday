@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Vikky!</title>
+  <style>
+    body {
+      background: #ffe6f0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      color: #d63384;
+      padding: 0;
+      margin: 0;
+    }
+    header {
+      background-color: #ff99cc;
+      padding: 20px;
+      font-size: 2.5em;
+      color: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .content {
+      padding: 40px 20px;
+    }
+    p {
+      font-size: 1.5em;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    .heart {
+      font-size: 2em;
+      animation: heartbeat 1s infinite;
+    }
+    @keyframes heartbeat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+    #surprise {
+      display: none;
+      font-size: 1.2em;
+      background: #fff0f5;
+      border: 2px solid #d63384;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    button {
+      background-color: #d63384;
+      color: white;
+      padding: 10px 20px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+    iframe {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>Happy Birthday Vikky! 🎂</header>
+
+  <div class="content">
+    <p>Today is your special day — and even though we may be miles apart, my heart is right there with you, wrapped around yours. 💖</p>
+    <p>Vikky, you’ve filled my life with love, laughter, and the kind of comfort that only true soulmates bring. Every moment with you — even the little texts, the late-night calls, the silly jokes — means the world to me.</p>
+    <p>You are everything I ever wished for. You are my reason to smile. You are home to my heart.</p>
+    <p>I hope this day brings you as much happiness as you bring into my life every single day.</p>
+    <p>I love you endlessly. <br>Forever yours,<br><strong>Nandini 💌</strong></p>
+    <div class="heart">💖 💖 💖</div>
+
+    <button onclick="showSurprise()">🎉 Click me!</button>
+    <div id="surprise">
+      🥰 Surprise! You make my world better just by being in it. Here’s to many more birthdays, laughter, and late-night talks. Can’t wait to hug you tight! 💞
+    </div>
+  </div>
+
+  <iframe width="0" height="0" src="https://www.youtube.com/embed/55c6IlV7BEo?autoplay=1&loop=1&playlist=55c6IlV7BEo" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+
+  <script>
+    function showSurprise() {
+      document.getElementById('surprise').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
